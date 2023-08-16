@@ -1,0 +1,19 @@
+span {
+    text-shadow: 5px 3px 5px var(--color5);
+    -webkit-text-stroke-width: .5px; 
+    -webkit-text-stroke-color: #c95858;
+    
+}
+
+.title {
+    font-size: 15vh;
+    width: 50%;
+    word-wrap: break-word;
+    text-align: center;
+    word-break: normal;
+}
+
+img {
+    height: 30%;
+    width: 30%;
+}
