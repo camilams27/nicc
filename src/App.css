@@ -4,13 +4,21 @@
   --color3: #a9a17a;
   --color4: #b52c00;
   --color5: #8c0005;
+  --color6: #e7c4b7;
 }
 
-.link {
+#nicName a, li a {
   text-decoration: none;
+  color: var(--color4);
 }
 
-.nicName {
+li a:hover, li .active-link {
+  color: var(--color6);
+  border-bottom: 1px solid red;
+  padding-bottom: 5px;
+}
+
+#nicName a{
   font-size: 24px;
   text-shadow: 0 0 5px #ff6b75, 0 0 8px #e51927, 0 0 10px #c00511;
   color: #1d1b1b;
@@ -18,6 +26,12 @@
   -webkit-text-stroke-color: #4c4747;
   animation: glowingStrokeColor 3s infinite, glowingRedTextShadow 3s infinite;
   cursor: pointer;
+  text-decoration: none;
+  transition: color 3s;
+}
+
+#nicName a:hover {
+  color: #302828;
 }
 
 @keyframes glowingStrokeColor {
@@ -32,9 +46,4 @@
   33% { text-shadow: 0 0 5px #e51927, 0 0 8px #c00511, 0 0 10px #ff6b75; }
   66% { text-shadow: 0 0 5px #c00511, 0 0 8px #ff6b75, 0 0 10px #e51927; }
   100% { text-shadow: 0 0 5px #ff6b75, 0 0 8px #e51927, 0 0 10px #c00511; }
-}
-
-ul {
-  color: var(--color4);
-  cursor: pointer;
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import './home.css';
 import banner from '../../assets/img/banner.png';
 import Line from '../../components/line/Line';

@@ -1,0 +1,74 @@
+{
+  "hash": "b060e5eb",
+  "browserHash": "6e236d12",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "bbe391f8",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "2216f0b8",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "73aac3d0",
+      "needsInterop": false
+    },
+    "react-bootstrap": {
+      "src": "../../node_modules/react-bootstrap/esm/index.js",
+      "file": "react-bootstrap.js",
+      "fileHash": "4f36e7ab",
+      "needsInterop": false
+    },
+    "react-bootstrap/Card": {
+      "src": "../../node_modules/react-bootstrap/esm/Card.js",
+      "file": "react-bootstrap_Card.js",
+      "fileHash": "91cc58e0",
+      "needsInterop": false
+    },
+    "react-bootstrap/ListGroup": {
+      "src": "../../node_modules/react-bootstrap/esm/ListGroup.js",
+      "file": "react-bootstrap_ListGroup.js",
+      "fileHash": "7fefa957",
+      "needsInterop": false
+    },
+    "react-bootstrap/Carousel": {
+      "src": "../../node_modules/react-bootstrap/esm/Carousel.js",
+      "file": "react-bootstrap_Carousel.js",
+      "fileHash": "21d5f5bb",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-SXUV4SDO": {
+      "file": "chunk-SXUV4SDO.js"
+    },
+    "chunk-MDIHFEFG": {
+      "file": "chunk-MDIHFEFG.js"
+    },
+    "chunk-X4GN7H72": {
+      "file": "chunk-X4GN7H72.js"
+    },
+    "chunk-REHMMJK5": {
+      "file": "chunk-REHMMJK5.js"
+    },
+    "chunk-FZP7CE6O": {
+      "file": "chunk-FZP7CE6O.js"
+    },
+    "chunk-F773GBPK": {
+      "file": "chunk-F773GBPK.js"
+    },
+    "chunk-YVU7VZQU": {
+      "file": "chunk-YVU7VZQU.js"
+    },
+    "chunk-L7APZED3": {
+      "file": "chunk-L7APZED3.js"
+    }
+  }
+}
